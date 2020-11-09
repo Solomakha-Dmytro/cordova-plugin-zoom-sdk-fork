@@ -5,9 +5,9 @@
 module.exports = function(ctx) {
 
 	var extractZip = require('extract-zip');
-	var fs = ctx.requireCordovaModule('fs'),
-        path = ctx.requireCordovaModule('path'),
-        Q = ctx.requireCordovaModule('q');
+	var fs = require('fs'),
+        path = require('path'),
+        Q = require('q');
 
     var deferral = new Q.defer()
 
