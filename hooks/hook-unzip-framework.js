@@ -11,7 +11,7 @@ module.exports = function(ctx) {
 
     var deferral = new Q.defer()
 
-    var pluginRoot = path.join(ctx.opts.projectRoot, '/plugins/com.facetec.cordova.ZoomAuthentication');
+    var pluginRoot = path.join(ctx.opts.projectRoot, '/plugins/com.facetec.cordova.zoomauthentication');
     var zipPath = path.join(pluginRoot, 'ZoomAuthentication.framework.zip');
 
 		extractZip(zipPath, {dir: pluginRoot}, function(err) {
