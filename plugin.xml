@@ -1,7 +1,7 @@
 
 
 <?xml version="1.0" encoding="utf-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="com.facetec.cordova.zoomauthentication" version="6.1.8">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="com.facetec.cordova.ZoomAuthentication" version="6.1.8">
   
   <name>ZoomAuthentication</name>
   <js-module name="ZoomAuthentication" src="www/ZoomAuthentication.js">
@@ -33,7 +33,7 @@
   <platform name="android">
     <config-file parent="/*" target="res/xml/config.xml">
       <feature name="ZoomAuthentication">
-          <param name="android-package" value="com.facetec.cordova.zoomauthentication"/>
+          <param name="android-package" value="com.facetec.cordova.ZoomAuthentication"/>
       </feature>
     </config-file>
     
