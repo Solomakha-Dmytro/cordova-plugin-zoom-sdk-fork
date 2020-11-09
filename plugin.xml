@@ -9,7 +9,7 @@
   </js-module>
 
   <!-- Tell iOS applications to embed the required Swift libraries  -->
-  <dependency id="cordova-plugin-add-swift-support" version="1.7.1"/>
+  <dependency id="cordova-plugin-add-swift-support" version="2.0.2"/>
   
   <platform name="ios">
     <config-file parent="/*" target="config.xml">
